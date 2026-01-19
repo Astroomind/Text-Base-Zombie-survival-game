@@ -20,28 +20,19 @@ namespace ZombieSurvivalTextGame
             Console.WriteLine("Barbarian: \n Health - + 100. \n Damage with Maces & Axes + 10. \n Armor = + 10");
             Console.WriteLine("Rogue: \n  Evasion Rating + 50 \n Attack Damage + 25 \n Attack Damage with Dagger + 15 \n Accuracy + 30");
 
-
-
-            Console.WriteLine($"Welcome {name}.");
-            Console.WriteLine($"Your stats:\nName = {name}\nHealth = {health}\nEvasion Rating = {evasion_Rating}\nArmor = {armor}\nAttack Damage = {Attack_Dmg}\nAccuracy = {accuracy}");
-
-            Console.WriteLine("A zombie appears!");
-            Console.WriteLine("Do you attack or run? \n Please choose the following: A = Attack or R = Run.");
-
-            string decision1 = Console.ReadLine();
-
-            if (decision1.ToLower() == "a")
+            string classChoice = Console.ReadLine();
+            if (classChoice.ToLower() == "barbarian")
             {
-                Console.WriteLine("Your probability of a successful attack depends on your accuracy rating and the enemies evasion.");
+                BarbarianClass.ApplyBarbarian();
+                Console.WriteLine("You have chosen the Barbarian!");
             }
-            else if (decision1.ToLower() == "r")
+            else if (classChoice.ToLower() == "rogue")
             {
-                Console.WriteLine("You chose to run away");
+                RogueClass.ApplyRogue();
+                Console.WriteLine("You have chosen Rogue");
             }
-            else
-            {
-                Console.WriteLine("Invalid input");
-            }
+
+            Console.WriteLine($"Your stats:\n Health = {health}");
         }
     }
 }

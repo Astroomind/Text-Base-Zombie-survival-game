@@ -1,6 +1,6 @@
 namespace ZombieSurvivalTextGame
 {
-    public class BarbarianClass
+    public class RogueClass
     {
         public static void ApplyRogue()
         {
