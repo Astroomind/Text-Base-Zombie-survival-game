@@ -8,6 +8,7 @@ namespace ZombieSurvivalTextGame
             Program.armor += 10;
             Program.Attack_Dmg += 10;
             Program.accuracy += 10;
+            Program.attackDmgAxeMace += 10;
         }
     }
 }
