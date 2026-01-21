@@ -1,0 +1,15 @@
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\bin\Debug\net10.0\ZombieSurvivalTextGame.exe
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\bin\Debug\net10.0\ZombieSurvivalTextGame.deps.json
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\bin\Debug\net10.0\ZombieSurvivalTextGame.runtimeconfig.json
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\bin\Debug\net10.0\ZombieSurvivalTextGame.dll
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\bin\Debug\net10.0\ZombieSurvivalTextGame.pdb
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\ZombieSurvivalTextGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\ZombieSurvivalTextGame.AssemblyInfoInputs.cache
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\ZombieSurvivalTextGame.AssemblyInfo.cs
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\ZombieSurvivalTextGame.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\ZombieSurvivalTextGame.sourcelink.json
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\ZombieSurvivalTextGame.dll
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\refint\ZombieSurvivalTextGame.dll
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\ZombieSurvivalTextGame.pdb
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\ZombieSurvivalTextGame.genruntimeconfig.cache
+C:\Users\aaron\Documents\GitHub\Text-Base-Zombie-survival-game\obj\Debug\net10.0\ref\ZombieSurvivalTextGame.dll

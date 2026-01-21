@@ -1,3 +1,4 @@
+using System;
 namespace ZombieSurvivalTextGame
 {
     public class RogueClass
