@@ -33,14 +33,15 @@ namespace ZombieSurvivalTextGame
             {
                 BarbarianClass.ApplyBarbarian();
                 Console.WriteLine("You have chosen the Barbarian!");
+                Console.WriteLine($"Your stats:\n Health = {health}\n Evasion Rating = {evasion_Rating}\n Armor = {armor}\n Attack Damage = {Attack_Dmg}\n Accuracy = {accuracy}\n Attack Damage with Mace & Axe = {attackDmgAxeMace}");
             }
             else if (classChoice.ToLower() == "r")
             {
                 RogueClass.ApplyRogue();
                 Console.WriteLine("You have chosen the Rogue");
+                Console.WriteLine($"Your stats:\n Health = {health}\n Evasion Rating = {evasion_Rating}\n Armor = {armor}\n Attack Damage = {Attack_Dmg}\n Accuracy = {accuracy}\n Attack Damage with Daggers = {attackDmgDagger}");
             }
-
-            Console.WriteLine($"Your stats:\n Health = {health}\n Evasion Rating = {evasion_Rating}\n Armor = {armor}\n Attack Damage = {Attack_Dmg}\n Accuracy = {accuracy}\n Attack Damage with Mace & Axe = {attackDmgAxeMace}");
+            
         }
     }
 }
