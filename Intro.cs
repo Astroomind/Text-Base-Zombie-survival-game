@@ -40,7 +40,7 @@ namespace ZombieSurvivalTextGame
                 Console.WriteLine("You have chosen the Rogue");
             }
 
-            Console.WriteLine($"Your stats:\n Health = {health}");
+            Console.WriteLine($"Your stats:\n Health = {health}\n Evasion Rating = {evasion_Rating}\n Armor = {armor}\n Attack Damage = {Attack_Dmg}\n Accuracy = {accuracy}\n Attack Damage with Mace & Axe = {attackDmgAxeMace}");
         }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZombieSurvivalTextGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c2b09644cb908f0d74d6e2c32b40e90ac7280b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb4adf09821b8a675387046daef1b7456b70b3a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZombieSurvivalTextGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZombieSurvivalTextGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
