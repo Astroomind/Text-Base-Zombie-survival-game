@@ -42,6 +42,18 @@ namespace ZombieSurvivalTextGame
                 Console.WriteLine($"Your stats:\n Health = {health}\n Evasion Rating = {evasion_Rating}\n Armor = {armor}\n Attack Damage = {Attack_Dmg}\n Accuracy = {accuracy}\n Attack Damage with Daggers = {attackDmgDagger}");
             }
             
+            Console.WriteLine("You encounter an Iron Sword lodged into the skull of a skeleton. Do you pull the sword out or leave it be?");
+            Console.WriteLine("(Take) = You take the sword. \n(Leave) = You leave the word alone.");
+            string swordDecision = Console.ReadLine();
+
+            if (swordDecision.Equals("Take", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("You take the sword from the skull of the skeleton and as you pull the sword out the skeleton springs to life!");
+            }
+            else if (swordDecision.Equals("Leave", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("You chose to Leave the sword embedded into skeleton and walk past it.");
+            }
         }
     }
 }
