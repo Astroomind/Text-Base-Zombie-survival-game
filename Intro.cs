@@ -2,8 +2,10 @@ using System;
 
 namespace ZombieSurvivalTextGame
 {
+    public enum PlayerClass {None, Barabrian, Rogue}
     public class Program //A container that holds the data such as my variables and functionality methods like Main.
     {
+        public static PlayerClass playerClass = PlayerClass.None; //Sets the player class to None until the player makes a choice.
         public static int health = 100;
         public static int evasion_Rating = 0;
         public static int armor = 0;
@@ -11,6 +13,8 @@ namespace ZombieSurvivalTextGame
         public static int accuracy = 20;
         public static int attackDmgAxeMace = 0;
         public static int attackDmgDagger = 0;
+        public static bool isRogue = false;
+        public static bool isBarbarian = false;
 
         static void Main(string[] args) //Entry point of my C# program this is where my application start running when i press play.
         {
@@ -31,12 +35,14 @@ namespace ZombieSurvivalTextGame
 
             if (classChoice.ToLower() == "b")
             {
+                isBarbarian = true;
                 BarbarianClass.ApplyBarbarian();
                 Console.WriteLine("You have chosen the Barbarian!");
                 Console.WriteLine($"Your stats:\n Health = {health}\n Evasion Rating = {evasion_Rating}\n Armor = {armor}\n Attack Damage = {Attack_Dmg}\n Accuracy = {accuracy}\n Attack Damage with Mace & Axe = {attackDmgAxeMace}");
             }
             else if (classChoice.ToLower() == "r")
             {
+                isRogue = true;
                 RogueClass.ApplyRogue();
                 Console.WriteLine("You have chosen the Rogue");
                 Console.WriteLine($"Your stats:\n Health = {health}\n Evasion Rating = {evasion_Rating}\n Armor = {armor}\n Attack Damage = {Attack_Dmg}\n Accuracy = {accuracy}\n Attack Damage with Daggers = {attackDmgDagger}");
